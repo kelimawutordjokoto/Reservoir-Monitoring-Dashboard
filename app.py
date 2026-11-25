@@ -11,7 +11,7 @@ import pandas as pd
 import plotly.graph_objects as go
 import streamlit as st
 
-DATA = Path(__file__).parent / "data"
+DATA = Path(__file__).parent /
 VALIDATION_START = 2022  # calibration 2015-2021, validation 2022-2025
 
 C_WOFS, C_REF, C_RAW, C_VAL = "#1f6fb4", "#d1792a", "#8c9bab", "#2a9d6f"
